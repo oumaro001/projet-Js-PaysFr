@@ -26,10 +26,10 @@ function showCounttryByContinents(continent) {
                         countryName.classList.add("countrylist")
                         pays.appendChild(countryName);
                         let drapeau = country.flags.png;
-                        countryName.innerHTML = "<h2>" + country.name.common + "</h2>" + 
-                                                "<p>" + country.continents + "</p>"+ '<img src='+drapeau+'>'
+                        countryName.innerHTML = "<h2>" + country.name.common + "</h2>" +
+                            "<p>" + country.continents + "</p>" + '<img src=' + drapeau + '>'
 
-                
+
                     }
 
 
